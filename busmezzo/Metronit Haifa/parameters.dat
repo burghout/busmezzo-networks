@@ -75,5 +75,7 @@
    dwell_time_weight= 1.0
    waiting_time_weight= 2.0
    holding_time_weight= 1.0
+   compliance_rate= 1.0
+   transfer_sync= 0
 #day2day_assignment
     default_alpha_RTI= 0.5
