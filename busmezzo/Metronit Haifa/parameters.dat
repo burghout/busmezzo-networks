@@ -48,32 +48,35 @@
    sim_speed_factor= 1.9
 #transit_demand_parameters
    demand_format= 3
-   demand_scale= 2.0
+   demand_scale= 1.0
    choice_set_indicator= 1
    pass_day_to_day_indicator= 0
    in_vehicle_d2d_indicator= 0
-   break_criterium= 0.1
-   transfer_coefficient= -0.334
+   break_criterium= 0
+   transfer_coefficient= -2.00
    in_vehicle_time_coefficient= -0.04
    waiting_time_coefficient= -0.07
-   walking_time_coefficient= -0.07
+   walking_time_coefficient= -0.00
    average_walking_speed= 66.66
    max_nr_extra_transfers= 1
-   absolute_max_transfers= 3
+   absolute_max_transfers= 1
    max_in_vehicle_time_ratio= 2.0
    max_walking_distance= 2500.0
    max_waiting_time= 1800.0
    dominancy_perception_threshold= 1.5
    choice_model= 1
-   real_time_info= 2
+   real_time_info= 1
    share_RTI_network= 1
-   start_pass_generation= 3600.0
-   stop_pass_generation= 7200.0
-   od_pairs_for_generation= 0
+   start_pass_generation= 0.0
+   stop_pass_generation= 14400.0
+   od_pairs_for_generation= 0  
 #transit_control_parameters
    riding_time_weight= 1.0
    dwell_time_weight= 1.0
    waiting_time_weight= 2.0
    holding_time_weight= 1.0
+   compliance_rate= 1.0
+   transfer_sync= 1
+   Real_time_control_info= 0
 #day2day_assignment
-    default_alpha_RTI= 0.5
+   default_alpha_RTI= 0.5
