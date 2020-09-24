@@ -1,5 +1,5 @@
-# network
-Contains Mezzo and Busmezzo networks
+# Busmezzo networks
+Contains Busmezzo networks
 
 - Master branch contains stable networks that run with current versions of Mezzo and BusMezzo
 - Testing branch contains new networks, networks that are being debugged, and networks that are being updated
