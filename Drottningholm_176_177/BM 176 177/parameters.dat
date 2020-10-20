@@ -69,13 +69,15 @@
    share_RTI_network= 1
    start_pass_generation= 7000.0
    stop_pass_generation= 17000.0
+   od_pairs_for_generation= 0
+   gate_generation_time_diff= 0
 #transit_control_parameters
    riding_time_weight= 1.0
    dwell_time_weight= 1.0
    waiting_time_weight= 2.0
    holding_time_weight= 1.0
    compliance_rate= 1.0
-   transfer_sync= 1
-   Real_time_control_info= 0
+   transfer_sync= 0
+   drt= 0
 #day2day_assignment
    default_alpha_RTI= 0.5
